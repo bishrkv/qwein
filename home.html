@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Login</title>
+  <link rel="stylesheet" href="home.css">
+  <script type="module" src="app.js"></script> <!-- Use type="module" -->
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm">
+          <input type="text" id="username" placeholder="Enter username" required>
+          <input type="password" id="password" placeholder="Enter password" required>
+          <button type="submit">Login</button>
+        </form>
+      
+    </div>
+    <div id="popup" class="popup">
+      <div id="displayCredentials">
+        <div class="credential">
+          <h3>Username</h3>
+          <h3>Password</h3>
+        </div>
+      </div>
+      <button id="closePopup">Close</button>
+    </div>
+</body>
+</html>

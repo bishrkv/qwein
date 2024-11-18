@@ -1,0 +1,124 @@
+
+body{
+    position: fixed;
+}
+.logo{
+ width: 100px;
+}
+.logo2{
+ width: 200px;
+ margin-left: 40px;
+ transform: translateY(-105px);
+}
+.nav{
+ display: flex;
+ flex-direction: row;
+ font-family: Questrial Regular;
+ font-size: 10px;
+}
+
+
+.home{
+    margin-left: 200px;
+    margin-top: -100px;
+}
+.sub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(40, 41, 42);
+    margin-left: 170px;
+    margin-top: -400px;
+}
+.icon{
+    width: 300px;
+    transform: translateY(-340px);
+    margin-left: 100px;
+}
+.para{
+    font-size: 20px;
+    font-family: poppins;
+    margin-left: 170px;
+    font-weight: 400;
+    color: black;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: aliceblue;
+    font-family: poppins;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 170px;
+    margin-top: 35px;
+}
+.pho{
+    margin-left: 1200px;
+    transform: translateY(-600px);
+    width: 400PX;
+}
+.nav{
+    display: flex;
+    margin-left: 1200px;
+    transform: translateY(-200px);
+}
+.login{
+    font-family: poppins;
+    font-weight: 500;
+    margin-left: 80px;
+    color: black;
+    text-decoration: none;
+    
+}
+.shah{
+    transform: translateY(-50px);
+}
+@media(max-width: 440px){
+    .logo2 {
+     width: 100px;
+     margin-top: 45px;
+    }
+    .logo{
+     width: 60px;
+      
+    }
+    .login{
+    font-family: poppins;
+    font-weight: 500;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    
+    }
+    .nav{
+        margin-left: 110px;
+        font-size: 8px;
+        margin-top: 40px;
+    }
+    .icon{
+        width: 200px;
+        margin-left: -20px;
+        margin-top: 230px;
+    }
+    .home{
+        width: 350px;
+        margin-left: 80px;
+        transform: translateY(90px);
+    }
+    .sub{
+        margin-left: 30px;
+        transform: translateY(10px);
+        font-size: 40px;
+    }
+    .para{
+        margin-left: 35px;
+        font-size: 15px ;
+    }
+    .btn{
+        margin-left: 40px;
+    }
+    
+  
+  }

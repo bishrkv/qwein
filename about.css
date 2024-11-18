@@ -1,0 +1,41 @@
+body{
+    position: fixed;
+}
+.home{
+    margin-left: 680px;
+}
+.icon{
+    transform: translateY(-350px);
+    margin-left: 560px;
+    width: 325px;
+}
+.dd{
+    transform: translateY(140px);
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: -250px;
+    font-weight: 400;
+   transform: translateX(230px);
+}
+@media(max-width: 440px){
+    .icon{
+        width: 200px;
+        margin-left: -0px;
+        transform: translateY(-210px);
+    }
+    .home{
+        width: 350px;
+        margin-left: 90px;
+        transform: translateY(-3px);
+    }
+    .para{
+        font-size: 20px;
+        margin-top: -100px;
+        transform: translateX(-10px);
+    }
+  
+}
